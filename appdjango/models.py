@@ -20,3 +20,7 @@ class teste5 (models.Model):
     nome2 = models.CharField(
         max_length=299
     )
+class teste6 (models.Model):
+    nome3 = models.CharField(
+        max_length=123
+    )
